@@ -1,8 +1,8 @@
 class Town:
     def __init__(self, name):
         self.name = name
-        self.latitude = "0캮"
-        self.longitude = "0캞"
+        self.latitude = "0째N"
+        self.longitude = "0째E"
     def set_latitude(self, latitude):
         self.latitude = latitude
         
@@ -14,6 +14,6 @@ class Town:
 
 
 town = Town("Sofia")
-town.set_latitude("42� 41\' 51.04\" N")
-town.set_longitude("23� 19\' 26.94\" E")
+town.set_latitude("42째 41\' 51.04\" N")
+town.set_longitude("23째 19\' 26.94\" E")
 print(town)
